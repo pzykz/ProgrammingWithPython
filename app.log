@@ -1,0 +1,3 @@
+Timestamp: 2026-05-07 22:17:45,878 - Name: root - Level: WARNING - Message: This message gets logged as warning.
+Timestamp: 2026-05-07 22:21:07,943 - Name: root - Level: WARNING - Message: This is just a test message for logging
+Timestamp: 2026-05-11 06:51:59,531 - Name: root - Level: WARNING - Message: [Time stamp]: 11-05-2026 06:51:59 AM [File Name]: c:\Users\nikol\OneDrive - IU International University of Applied Sciences\Kursunterlagen\DLMDSPWP01 - Programming with Python\Code\Unit4.py [Procedure Name]: division_by_zero [Error Message]: division by zero [Error Type]: <class 'ZeroDivisionError'> [Line Number]: 27 [Line Code]: division_by_zero = 1/0
