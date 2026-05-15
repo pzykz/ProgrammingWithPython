@@ -1,0 +1,30 @@
+# Gemini: Here is a standard, copy-pasteable block for your .gitignore file:
+# Why this matters: * Secrets: If you ever set up database connections, you will likely store your passwords in a .env file. Pushing that file to GitHub, even for a minute, is a major security risk.
+# Data Files: Git is designed for text (code), not massive binary files or gigabytes of .csv and .parquet files. Tracking large data files will bloat your repository and make pulling/pushing incredibly slow.
+
+# Environments
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
+# Secrets and Configurations (CRITICAL)
+.env
+config.ini
+secrets.json
+
+# Data and Databases
+*.csv
+*.excel
+*.parquet
+*.db
+*.sqlite3
